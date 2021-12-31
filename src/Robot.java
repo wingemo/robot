@@ -4,7 +4,7 @@ import java.awt.AWTException;
 import java.awt.Robot;
 import java.io.*;
 
-public class Main {
+public class Robot {
     private static Robot robot;
     private static Outlook outlook;
     private static Windows windows;
