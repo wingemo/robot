@@ -31,6 +31,26 @@ public class Windows {
         robot.keyRelease(KeyEvent.VK_CAPS_LOCK);
     }
 
+    public static void f10(){
+        robot.keyPress(KeyEvent.VK_F10);
+        robot.keyRelease(KeyEvent.VK_F10);
+    }
+
+    public static void down(){
+        robot.keyPress(KeyEvent.VK_DOWN);
+        robot.keyRelease(KeyEvent.VK_DOWN);
+    }
+
+    public static void up(){
+        robot.keyPress(KeyEvent.VK_UP);
+        robot.keyRelease(KeyEvent.VK_UP);
+    }
+
+    public static void control(){
+        robot.keyPress(KeyEvent.VK_CONTROL);
+        robot.keyRelease(KeyEvent.VK_CONTROL);
+    }
+
     public static void write(String keys) {
         char ch = '@';
         for (char c : keys.toCharArray()) {
