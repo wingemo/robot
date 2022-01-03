@@ -10,6 +10,15 @@ public class Windows {
     {
         this.robot = robot;
     }
+    
+    public static Robot getRobot() {
+        return robot;
+    }
+
+    public static void setRobot(Robot robot) {
+        Outlook.robot = robot;
+    }
+
 
     public static void search(){
         robot.keyPress(KeyEvent.VK_WINDOWS);
