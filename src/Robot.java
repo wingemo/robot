@@ -18,7 +18,6 @@ public class Main {
     private static Atlas atlas;
 
     public static void main(String[] args) throws IOException, AWTException, InterruptedException {
-        quantity = 2;
         initialization();
         saveMail();
         input();
