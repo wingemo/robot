@@ -40,11 +40,7 @@ public class Main {
         for (int i = 0; i < quantity; i++) {
             File file = new File("\\\\fspa.myntet.se\\userdata\\SE-Users4\\p901pwo\\" + i + ".txt");
             BufferedReader br = new BufferedReader(new FileReader(file));
-            // Declaring a string variable
             String st, pid = null, account = null;
-
-            // Condition holds true till
-            // there is character in a string
             while ((st = br.readLine()) != null) {
                 if (st.contains("valutakontonummer")) {
                     account = st.replace("valutakontonummer :", "").replace(" ", "");
