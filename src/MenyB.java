@@ -3,7 +3,7 @@ package com.company;
 public class MenyB {
     private String password, pid, account;
 
-    public Atlas(String password, String account, String pid) {
+    public MenyB(String password, String account, String pid) {
         this.password = password;
         this.account = account;
         this.pid = pid;
@@ -35,7 +35,7 @@ public class MenyB {
 
     @Override
     public String toString() {
-        return "Atlas{" +
+        return "MenyB{" +
                 "password='" + password + '\'' +
                 ", account='" + account + '\'' +
                 ", pid='" + pid + '\'' +
