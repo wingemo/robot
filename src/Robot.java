@@ -101,25 +101,6 @@ public class Main {
         delay(2);
     }
 
-    private static void writeText(String text){
-        windows.search();
-        delay(1);
-        windows.write("word");
-        windows.enter();
-        delay(1);
-        windows.enter();
-        delay(1);
-        windows.write(text);
-        delay(1);
-        word.close();
-        windows.tab();
-        windows.tab();
-        windows.tab();
-        windows.tab();
-        windows.tab();
-        windows.enter();
-    }
-
     private static void saveMail(){
         windows.search();
         delay(1);
