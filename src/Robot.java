@@ -9,6 +9,7 @@ import javax.swing.*;
 
 public class Main {
     private static HashMap<Integer, Mail> mails = new HashMap<Integer, Mail>();
+    Stack<type> stk = new Stack<>();  
     private static Robot robot;
     private static Outlook outlook;
     private static Windows windows;
