@@ -1,6 +1,5 @@
 package com.company;
 
-// TODO: Auto-generated Javadoc
 /**
  * The Class MenyB.
  */
