@@ -1,4 +1,6 @@
+package com.company;
 
+public class Atlas {
     private String password, pid, account;
 
     public Atlas(String password, String account, String pid) {
